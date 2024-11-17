@@ -33,10 +33,10 @@
 }
 
 .tab-link{
-    color: var(--color5);
+    color: var(--color5) !important;
     min-width: 120px;
 }
 
 .tab-link:hover {
-    color: var(--color4);
+    color: var(--color5);
 }
