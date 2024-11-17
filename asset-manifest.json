@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/carlosma7-cv/static/css/main.bc633001.css",
+    "main.js": "/carlosma7-cv/static/js/main.89635c81.js",
+    "static/js/213.9e1b3505.chunk.js": "/carlosma7-cv/static/js/213.9e1b3505.chunk.js",
+    "static/js/732.f44af23e.chunk.js": "/carlosma7-cv/static/js/732.f44af23e.chunk.js",
+    "static/js/488.aeac04ad.chunk.js": "/carlosma7-cv/static/js/488.aeac04ad.chunk.js",
+    "static/media/profile_pic.jpeg": "/carlosma7-cv/static/media/profile_pic.15e5ccbdbacf98bd6793.jpeg",
+    "static/media/cambridge_logo.svg": "/carlosma7-cv/static/media/cambridge_logo.7647ff47c42a205849a3e8da4d2dc217.svg",
+    "static/media/download_logo.png": "/carlosma7-cv/static/media/download_logo.1649f8acbd29285d70ab.png",
+    "static/media/kodecloud_logo.png": "/carlosma7-cv/static/media/kodecloud_logo.eff6ddb37cd2a82d527c.png",
+    "static/media/scrum_logo.svg": "/carlosma7-cv/static/media/scrum_logo.8cde820abd4a1a00070f1dfdab9f3a1a.svg",
+    "static/media/pdf_logo.svg": "/carlosma7-cv/static/media/pdf_logo.e3ce45e4695481e86d49bd59f3b98640.svg",
+    "static/media/udemy_logo.svg": "/carlosma7-cv/static/media/udemy_logo.c25655c05cc3b80125e9f224121fbceb.svg",
+    "static/media/python_logo.svg": "/carlosma7-cv/static/media/python_logo.62e8a4442709e711eb8c89041804c775.svg",
+    "static/media/linkedin_logo.svg": "/carlosma7-cv/static/media/linkedin_logo.c11a51dc5395675c338ae20f84fcfa75.svg",
+    "static/media/telegram_logo.svg": "/carlosma7-cv/static/media/telegram_logo.fd11c5664643c3d8d90c60fd381a4b7e.svg",
+    "static/media/github_logo.svg": "/carlosma7-cv/static/media/github_logo.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/carlosma7-cv/index.html",
+    "main.bc633001.css.map": "/carlosma7-cv/static/css/main.bc633001.css.map",
+    "main.89635c81.js.map": "/carlosma7-cv/static/js/main.89635c81.js.map",
+    "213.9e1b3505.chunk.js.map": "/carlosma7-cv/static/js/213.9e1b3505.chunk.js.map",
+    "732.f44af23e.chunk.js.map": "/carlosma7-cv/static/js/732.f44af23e.chunk.js.map",
+    "488.aeac04ad.chunk.js.map": "/carlosma7-cv/static/js/488.aeac04ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc633001.css",
+    "static/js/main.89635c81.js"
+  ]
+}
