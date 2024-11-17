@@ -1,0 +1,15 @@
+export { default as profilePic } from './profile_pic.jpeg';
+export { default as ugrLogo } from './ugr_logo.jpeg';
+export { default as nanobytesLogo } from './nanobytes_logo.jpeg';
+export { default as techedgeLogo } from './techedge_logo.jpeg';
+export { default as braintecLogo } from './braintec_logo.jpeg';
+export { default as githubLogo } from './github_logo.svg';
+export { default as linkedinLogo } from './linkedin_logo.svg';
+export { default as telegramLogo } from './telegram_logo.svg';
+export { default as pdfLogo } from './pdf_logo.svg';
+export { default as downloadLogo } from './download_logo.png';
+export { default as cambridgeLogo } from './cambridge_logo.svg';
+export { default as kodecloudLogo } from './kodecloud_logo.png';
+export { default as scrumLogo } from './scrum_logo.svg';
+export { default as udemyLogo } from './udemy_logo.svg';
+export { default as pythonLogo } from './python_logo.svg';

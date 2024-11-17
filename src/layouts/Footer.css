@@ -1,0 +1,39 @@
+:root {
+    --color1: #000000;
+    --color2: #13274d;
+    --color3: #405aa4;
+    --color4: #7a95ff;
+    --color5: #c1d4ff;
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.color3 {
+    color: var(--color3);
+}
+
+.color4 {
+    color: var(--color4);
+}
+
+.color5 {
+    color: var(--color5);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100px; /* Altura del footer */
+    background-color: var(--color2); /* Fondo del footer */
+}
+
+footer p {
+    color: var(--color5);
+}

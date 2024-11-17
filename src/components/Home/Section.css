@@ -1,0 +1,82 @@
+.experience {
+    /* Justify experience text */
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.item-content {
+    /* Set the font settings for item content */
+    font-size: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: var(--color1);
+}
+
+.item-section {
+    /* Make the section have a certain width and space between elements */
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    width: 800px;
+}
+
+.location-dates {
+    /* Change location font */
+    font-size: 15px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: var(--color3);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    border: 2px solid #405aa4;
+}
+
+.custom-progress-bar {
+    /* Set the font settings and set a certain length for the progress bar */
+    font-size: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: var(--color1);
+    width: 1100px;
+    padding: 5px;
+    .customi {
+        width: 60%;
+    }
+}
+
+.section {
+    /* Set the section items centered and spaced enough */
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    margin: 20px;
+}
+
+.section-content {
+    /* Set the flex and put the content at left side */
+    flex: 1;
+}
+
+.section-name {
+    /* Set the flex and center the name inside */
+    flex: 1;
+    text-align: center;
+    p {
+        /* Set section name font and decorations */
+        font-size: 35px;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        text-decoration: underline;
+        text-decoration-color: var(--color3);
+        color: var(--color1);
+    }
+}
+
+.skill {
+    /* Set the skill name left sided */
+    display: flex;
+    justify-content: left;
+}
+
+.chip-link {
+    display: inline-block;
+    margin-bottom: 10px;
+}

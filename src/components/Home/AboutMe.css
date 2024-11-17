@@ -1,0 +1,46 @@
+.about-me {
+    background-color: var(--color1);
+    /* Makes all content centered */
+    display: flex;
+    justify-content: center;
+    /* Give some space above and underneath */
+    padding: 20px;
+}
+
+.adjectives {
+    /* Changes the font */
+    color: red;
+    font-size: 30px;
+}
+
+.description {
+    /* Sets maximum width for the description div */
+    max-width: 600px;
+    /* Sets a color for the text insdide */
+    p {
+        color: var(--color5);
+        text-align: justify;
+    }
+}
+
+.logo-link-image {
+    /* Sets logo size and color when not hovering over it */
+    width: 50px;
+    filter: brightness(0) saturate(100%) invert(84%) sepia(6%) saturate(94%) hue-rotate(7deg) brightness(93%) contrast(83%);
+}
+
+.logo-link-button:hover .logo-link-image {
+    /* Changes color when hover */
+    filter: brightness(0) saturate(100%) invert(39%) sepia(88%) saturate(1969%) hue-rotate(198deg) brightness(99%) contrast(81%);
+}
+
+.profile-pic {
+    /* Adds a border to the picture */
+    border: 5px solid #405aa4;
+}
+
+.rrss{
+    /* Displays the logos with some space between them */
+    display: flex;
+    gap: 10px;
+}

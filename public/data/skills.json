@@ -1,0 +1,30 @@
+[
+    {
+        "skill": "Python",
+        "progress": "100"
+    },
+    {
+        "skill": "Github",
+        "progress": "80"
+    },
+    {
+        "skill": "MongoDB",
+        "progress": "80"
+    },
+    {
+        "skill": "PostgreSQL",
+        "progress": "80"
+    },
+    {
+        "skill": "AI (Machine Learning, Neural Networks, R, Keras)",
+        "progress": "60"
+    },
+    {
+        "skill": "C++",
+        "progress": "60"
+    },
+    {
+        "skill": "React",
+        "progress": "20"
+    }
+]
