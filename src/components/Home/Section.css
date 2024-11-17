@@ -39,6 +39,7 @@
     font-family: 'Courier New', Courier, monospace;
     @media (max-width: 768px) {
         font-size: 10px;
+        width: 100%;
     }
 }
 
