@@ -1,5 +1,5 @@
 import React from "react";
-import { ProgressBar, Image } from "react-bootstrap";
+import { ProgressBar, Image, Container, Row, Col } from "react-bootstrap";
 import {
   Timeline,
   TimelineItem,
@@ -41,20 +41,17 @@ import "./Section.css";
 function Item(props) {
   return (
     <div class="item-section">
-      {props.logo && (
-        <Image
-          src={props.logo}
-          roundedCircle
-          className="logo"
-          width="100"
-          height="100"
-        />
-      )}
+      {props.logo && <Image src={props.logo} roundedCircle className="logo" />}
       <div>
         {props.item && <p class="item-content">{props.item}</p>}
-        {props.experience && <p class="experience">{props.experience}</p>}
+        {props.experience && <p class="experience" lang="en">{props.experience}</p>}
         {props.link && (
-          <a href={props.link} target="_blank" rel="noopener noreferrer" class="chip-link">
+          <a
+            href={props.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="chip-link"
+          >
             <Chip
               variant="outlined"
               icon={<ArrowUpwardIcon />}
@@ -62,7 +59,7 @@ function Item(props) {
             />
           </a>
         )}
-        {props.location && <p class="location-dates">{props.location}</p>}
+        {props.location && <p class="location">{props.location}</p>}
       </div>
     </div>
   );
@@ -70,10 +67,12 @@ function Item(props) {
 
 function SkillItem(props) {
   return (
-    <div class="custom-progress-bar">
-      <p class="skill">{props.skill}</p>
-      <ProgressBar now={props.progress} className="customi" />
-    </div>
+    <Row>
+      <Col className="custom-progress-bar">
+        <p>{props.skill}</p>
+        <ProgressBar now={props.progress} className="customi" />
+      </Col>
+    </Row>
   );
 }
 
@@ -85,13 +84,11 @@ function TimedItem(props) {
           {props.content.map((item, index) => (
             <TimelineItem key={index}>
               {item.dates && (
-                <TimelineOppositeContent
-                  sx={{ minWidth: 300, position: "relative", top: 44 }}
-                >
-                  <p class="location-dates">{item.dates}</p>
+                <TimelineOppositeContent sx={{ position: "relative", top: {xs: 10, md: 44}, flex: {xs: 0, md: 0.2}}}>
+                  <p class="dates">{item.dates}</p>
                 </TimelineOppositeContent>
               )}
-              <TimelineSeparator sx={{ position: "relative", top: 40 }}>
+              <TimelineSeparator sx={{ position: "relative", top: {xs: 10, md: 44},}}>
                 <TimelineDot color="grey" />
                 {index < props.content.length - 1 && <TimelineConnector />}
               </TimelineSeparator>
@@ -108,10 +105,10 @@ function TimedItem(props) {
 
 function NotTimedItem(props) {
   return (
-    <div>
+    <Container className="mb-5">
       {Array.isArray(props.content) &&
         props.content.map((item, index) => <SkillItem key={index} {...item} />)}
-    </div>
+    </Container>
   );
 }
 
@@ -134,20 +131,27 @@ function NotTimedItem(props) {
  *   ]}
  * />
  */
+
+/*<Container class="section-content">*/
+/*
+
+*/
 function Section(props) {
   return (
-    <div class="section">
-      <div class="section-name">
-        <p>{props.sectionName}</p>
-      </div>
-      <div class="section-content">
-        {props.sectionName !== "Skills" ? (
-          <TimedItem {...props} />
-        ) : (
-          <NotTimedItem {...props} />
-        )}
-      </div>
-    </div>
+    <Container>
+      <Row>
+        <Col xs={12} md={2}>
+          <p class="section-name">{props.sectionName}</p>
+        </Col>
+        <Col xs={12} md={10}>
+          {props.sectionName !== "Skills" ? (
+            <TimedItem {...props} />
+          ) : (
+            <NotTimedItem {...props} />
+          )}
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

@@ -6,10 +6,12 @@ import html2pdf from 'html2pdf.js';
 
 import "./Download.css";
 
+const basePath = process.env.PUBLIC_URL;
+
 const Download = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = `${basePath}/resume.pdf`;
     link.download = "resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -42,7 +44,7 @@ const Download = () => {
 
   return (
     <Container fluid className="download-section">
-      <Row className="align-items-center">
+      <Row className="align-items-center g-2">
         {/* Botones */}
         <Col xs={12} md={6} className="d-flex justify-content-center justify-content-md-end">
           <Button variant="outline-primary" className="d-flex align-items-center image-button" onClick={handleDownload}>

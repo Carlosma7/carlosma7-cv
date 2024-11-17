@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 import {
   braintecLogo,
@@ -121,15 +122,15 @@ const Education = () => {
   }, []);
 
   return (
-    <div>
-      <Section sectionName="Education" content={education} />
-      <hr />
-      <Section sectionName="Experience" content={experience} />
-      <hr />
-      <Section sectionName="Certificates" content={certificates} />
-      <hr />
-      <Section sectionName="Skills" content={skills} />
-    </div>
+    <Container>
+        <Section sectionName="Education" content={education} />
+        <hr/>
+        <Section sectionName="Experience" content={experience} />
+        <hr/>
+        <Section sectionName="Certificates" content={certificates} />
+        <hr/>
+        <Section sectionName="Skills" content={skills} />
+    </Container>
   );
 };
 
