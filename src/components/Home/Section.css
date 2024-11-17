@@ -39,7 +39,6 @@
     font-family: 'Courier New', Courier, monospace;
     @media (max-width: 768px) {
         font-size: 10px;
-        width: 100%;
     }
 }
 
@@ -70,6 +69,8 @@
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     @media (max-width: 768px) {
         width: 70%;
+        font-size: 18px;
+        margin: 5px;
     }
 }
 

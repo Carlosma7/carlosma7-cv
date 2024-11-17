@@ -70,7 +70,7 @@ function SkillItem(props) {
     <Row>
       <Col className="custom-progress-bar">
         <p>{props.skill}</p>
-        <ProgressBar now={props.progress} className="customi" />
+        <ProgressBar now={props.progress} />
       </Col>
     </Row>
   );
