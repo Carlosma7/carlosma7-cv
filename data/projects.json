@@ -1,0 +1,62 @@
+[
+  {
+    "project": "Alarmbot",
+    "link": "https://github.com/Carlosma7/AlarmBot",
+    "icon": "alarmbotLogo",
+    "description": "A Telegram bot designed as an alarm system that integrates with an external API to receive alarm signals. The bot processes these signals and notifies users in real-time, providing a lightweight and efficient monitoring solution via Telegram."
+  },
+  {
+    "project": "IssacBot",
+    "link": "https://github.com/Carlosma7/IsaacBot",
+    "icon": "isaacbotLogo",
+    "description": "A Telegram bot that serves as a comprehensive assistant for the game The Binding of Isaac. It stores detailed game information, allows users to query it for in-game data, and tracks player achievements. This bot enhances the gaming experience by acting as a dynamic companion tool for players."
+  },
+  {
+    "project": "Arduino",
+    "link": "https://github.com/Carlosma7/Arduino",
+    "icon": "arduinoLogo",
+    "description": "A repository that includes step-by-step tutorials for assembling, configuring, and connecting various components and projects. It also features demonstrative videos, making it a practical resource for learning how to work with hardware and software systems."
+  },
+  {
+    "project": "awesome-python-api-framework",
+    "link": "https://github.com/Carlosma7/awesome-python-api-framework",
+    "icon": "frameworkLogo",
+    "description": "A repository that provides summaries, pros and cons, and practical tutorials for different Python frameworks. Its primary focus is on frameworks used to develop simple REST APIs, serving as a comparative and educational resource for developers."
+  },
+  {
+    "project": "AIDrawIt-Bot",
+    "link": "https://github.com/Carlosma7/AIDrawIt-Bot",
+    "icon": "aidrawitLogo",
+    "description": "A Twitter bot that enables users to generate AI-generated images by sending a request via a tweet. The bot processes the user’s description using DALLE, creating an image based on the input, and responds with the generated image in a reply tweet. This project demonstrates a practical use of generative AI in social media interaction."
+  },
+  {
+    "project": "Twitter-Social-Analyzer",
+    "link": "https://github.com/Carlosma7/Twitter-Social-Analyzer",
+    "icon": "xLogo",
+    "description": "A data analysis project that performs a deep dive into a given topic by collecting tweets containing specific keywords. It analyzes the data to provide sentiment analysis, generate word clouds, and produce other insights, offering a robust tool for understanding public sentiment and trends."
+  },
+  {
+    "project": "Metarepo-MUII-UGR",
+    "link": "https://github.com/Carlosma7/TFM-GrandQuiz",
+    "icon": "universityLogo",
+    "description": "A centralized repository containing links, resources, and summaries of repositories related to the subjects in the Master's in Computer Engineering program at the University of Granada (UGR). It serves as a helpful guide for students navigating the program."
+  },
+  {
+    "project": "GrandQuiz",
+    "link": "https://github.com/Carlosma7/TFM-GrandQuiz",
+    "icon": "grandquizLogo",
+    "description": "A comprehensive project featuring a Telegram bot that defines a social intergenerational game. The game aims to address age-related social isolation by fostering connections between different generations through a creative alternative to traditional games. This project leverages Telegram’s API to create a dynamic, inclusive gaming experience."
+  },
+  {
+    "project": "MedAuth",
+    "link": "https://github.com/Carlosma7/MedAuth",
+    "icon": "medauthLogo",
+    "description": "An educational initiative that explores the use of various cloud tools to conceptualize a platform for managing medical insurance policies. While primarily designed as a learning experience, it provides insights into the development of cloud-based solutions for real-world problems."
+  },
+  {
+    "project": "MatchUp",
+    "link": "https://github.com/Carlosma7/MatchUp",
+    "icon": "matchupLogo",
+    "description": "An educational application designed to connect people who are interested in engaging in sports activities with others. It aims to foster social interaction and encourage fitness by providing a user-friendly platform that is simple, intuitive, and effective for organizing and participating in sports-related meetups."
+  }
+]
