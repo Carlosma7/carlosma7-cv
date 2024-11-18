@@ -11,6 +11,9 @@
     /* Changes the font */
     color: red;
     font-size: 30px;
+    @media (max-width: 768px) {
+        font-size: 22px;
+    }
 }
 
 .description {
@@ -27,6 +30,9 @@
     /* Sets logo size and color when not hovering over it */
     width: 50px;
     filter: brightness(0) saturate(100%) invert(84%) sepia(6%) saturate(94%) hue-rotate(7deg) brightness(93%) contrast(83%);
+    @media (max-width: 768px) {
+        width: 40px;
+    }
 }
 
 .logo-link-image:hover {

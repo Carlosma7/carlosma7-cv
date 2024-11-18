@@ -2,9 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import MainLayout from '../layouts/MainLayout';
 import Home from '../pages/Home';
-//import About from '../pages/About';
-//import Contact from '../pages/Contact';
-//import NotFound from '../pages/NotFound';
+import Projects from '../pages/Projects';
+
 const basePath = process.env.PUBLIC_URL
 
 /**
@@ -30,7 +29,7 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path={`${basePath}`} element={<MainLayout><Home/></MainLayout>} />
-      <Route path={`${basePath}/projects`} element={<MainLayout><div/></MainLayout>} />
+      <Route path={`${basePath}/projects`} element={<MainLayout><Projects/></MainLayout>} />
       <Route path={`${basePath}/hobbies`} element={<MainLayout><div/></MainLayout>} />
       <Route path={`${basePath}/contact`} element={<MainLayout><div/></MainLayout>} />
       <Route path="*" element={<MainLayout><div/></MainLayout>} />

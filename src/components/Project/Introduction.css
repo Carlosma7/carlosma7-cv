@@ -1,0 +1,32 @@
+.introduction-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color1);
+    color: var(--color5);
+    padding: 10px;
+    a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.introduction-col {
+    font-size: 18px;
+    @media (max-width: 768px) {
+        p{
+            font-size: 15px;
+        }
+    }
+}
+
+.github-link-image {
+    /* Sets logo size and color when not hovering over it */
+    width: 80px;
+    filter: brightness(0) saturate(100%) invert(84%) sepia(6%) saturate(94%) hue-rotate(7deg) brightness(93%) contrast(83%);
+    margin-bottom: 10px;
+}
+
+.github-link-image:hover {
+    /* Changes color when hover */
+    filter: brightness(0) saturate(100%) invert(39%) sepia(88%) saturate(1969%) hue-rotate(198deg) brightness(99%) contrast(81%);
+}
