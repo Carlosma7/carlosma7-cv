@@ -14,7 +14,7 @@ import {
   matchupLogo,
   medauthLogo,
   xLogo,
-  universityLogo
+  universityLogo,
 } from "../../assets";
 
 import "./List.css";
@@ -31,7 +31,7 @@ const logos = {
   matchupLogo,
   medauthLogo,
   xLogo,
-  universityLogo
+  universityLogo,
 };
 
 const basePath = process.env.PUBLIC_URL;
@@ -61,28 +61,40 @@ const List = () => {
     <Container fluid className="my-3">
       <Row xs={1} md={4} className="g-3">
         {Array.isArray(projects) &&
-        projects.map((item, index) => (
-          <Col key={index}>
-            <Card>
-              <Card.Img variant="top" src={item.icon} className="card-image" />
-              <Card.Body className="card-body">
-                <Card.Title>{item.project}</Card.Title>
-                <Card.Text className="card-text">{item.description}</Card.Text>
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Chip
-                    variant="outlined"
-                    icon={<Image src={githubLogo} width="20px" className="chip-image" />}
-                    label="View Project" className="chip-github"
-                  />
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
+          projects.map((item, index) => (
+            <Col key={index}>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={item.icon}
+                  className="card-image"
+                />
+                <Card.Body className="card-body">
+                  <Card.Title>{item.project}</Card.Title>
+                  <Card.Text className="card-text">
+                    {item.description}
+                  </Card.Text>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <Chip
+                      variant="outlined"
+                      icon={
+                        <Image
+                          src={githubLogo}
+                          width="20px"
+                          className="chip-image"
+                        />
+                      }
+                      label="View Project"
+                      className="chip-github"
+                      sx={{
+                        color: "white",
+                      }}
+                    />
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
       </Row>
     </Container>
   );

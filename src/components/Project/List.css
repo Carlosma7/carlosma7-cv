@@ -18,7 +18,6 @@
 }
 
 .chip-github{
-    color: var(--color5);
 
     .chip-image {
         /* Sets logo size and color when not hovering over it */

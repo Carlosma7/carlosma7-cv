@@ -32,7 +32,7 @@ const AppRoutes = () => {
       <Route path={`${basePath}/projects`} element={<MainLayout><Projects/></MainLayout>} />
       <Route path={`${basePath}/hobbies`} element={<MainLayout><div/></MainLayout>} />
       <Route path={`${basePath}/contact`} element={<MainLayout><div/></MainLayout>} />
-      <Route path="*" element={<MainLayout><div/></MainLayout>} />
+      <Route path="*" element={<MainLayout><Home/></MainLayout>} />
     </Routes>
   );
 };
