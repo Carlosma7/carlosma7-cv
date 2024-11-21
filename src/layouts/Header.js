@@ -27,7 +27,7 @@ const Header = () => {
         >
           <Tab label="Home" component={Link} to={`${basePath}`} className="tab-link" />
           <Tab label="Projects" component={Link} to={`${basePath}/projects`} className="tab-link" />
-          <Tab label="Hobbies" component={Link} to={`${basePath}/hobbies`} className="tab-link" />
+          <Tab label="Hobbies" component={Link} to={`${basePath}/about-me`} className="tab-link" />
           <Tab label="Contact" component={Link} to={`${basePath}/contact`} className="tab-link" />
         </Tabs>
       </Toolbar>

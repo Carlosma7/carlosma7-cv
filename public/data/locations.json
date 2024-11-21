@@ -1,0 +1,177 @@
+[
+    {
+        "city": "Porto 🇵🇹",
+        "lat": 41.1496100,
+        "lng": -8.6109900,
+        "date": "November 2024",
+        "image": "porto.jpeg"
+    },
+    {
+        "city": "Edinburgh 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "lat": 55.9520600,
+        "lng": -3.1964800,
+        "date": "January 2024",
+        "image": "edinburgh.jpeg"
+    },
+    {
+        "city": "Stockholm 🇸🇪",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "date": "February 2024",
+        "image": "stockholm.jpeg"
+    },
+    {
+        "city": "Manchester 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "lat": 53.48095,
+        "lng": -2.23743,
+        "date": "March 2024",
+        "image": "manchester.jpeg"
+    },
+    {
+        "city": "Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "date": "March 2024",
+        "image": "liverpool.jpeg"
+    },
+    {
+        "city": "New York 🇺🇸",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "date": "September 2024",
+        "image": "newyork.jpeg"
+    },
+    {
+        "city": "Washington D.C. 🇺🇸",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "date": "September 2024",
+        "image": "washington.jpeg"
+    },
+    {
+        "city": "Milan 🇮🇹",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "date": "April 2023",
+        "image": "milan.jpeg"
+    },
+    {
+        "city": "Venice 🇮🇹",
+        "lat": 45.43713,
+        "lng": 12.33265,
+        "date": "April 2023",
+        "image": "venice.jpeg"
+    },
+    {
+        "city": "Bergamo 🇮🇹",
+        "lat": 45.69601,
+        "lng": 9.66721,
+        "date": "April 2023",
+        "image": "bergamo.jpeg"
+    },
+    {
+        "city": "Munich 🇩🇪",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "date": "March 2015",
+        "image": "munich.jpeg"
+    },
+    {
+        "city": "Duisburg 🇩🇪",
+        "lat": 51.43247,
+        "lng": 6.76516,
+        "date": "January 2019",
+        "image": "duisburg.jpeg"
+    },
+    {
+        "city": "Bonn 🇩🇪",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "date": "January 2019",
+        "image": "bonn.jpg"
+    },
+    {
+        "city": "Düsseldorf 🇩🇪",
+        "lat": 51.22172,
+        "lng": 6.77616,
+        "date": "January 2019",
+        "image": "dusseldorf.jpeg"
+    },
+    {
+        "city": "Köln 🇩🇪",
+        "lat": 50.93333,
+        "lng": 6.95,
+        "date": "January 2019",
+        "image": "koln.jpeg"
+    },
+    {
+        "city": "Aachen 🇩🇪",
+        "lat": 50.77664,
+        "lng": 6.08342,
+        "date": "January 2019",
+        "image": "aachen.jpg"
+    },
+    {
+        "city": "Basel 🇨🇭",
+        "lat": 47.55839,
+        "lng": 7.57327,
+        "date": "April 2023",
+        "image": "basel.jpeg"
+    },
+    {
+        "city": "Dublin 🇮🇪",
+        "lat": 53.33306,
+        "lng": -6.24889,
+        "date": "July 2012",
+        "image": "dublin.jpeg"
+    },
+    {
+        "city": "Galway 🇮🇪",
+        "lat": 53.27245,
+        "lng": -9.05095,
+        "date": "July 2012",
+        "image": "galway.jpeg"
+    },
+    {
+        "city": "Salzburg 🇦🇹",
+        "lat": 47.79941,
+        "lng": 13.04399,
+        "date": "March 2015",
+        "image": "salzburg.jpeg"
+    },
+    {
+        "city": "Paris 🇫🇷",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "date": "August 2008",
+        "image": "paris.jpeg"
+    },
+    {
+        "city": "Krakow 🇵🇱",
+        "lat": 50.06143,
+        "lng": 19.93658,
+        "date": "July 2016",
+        "image": "krakow.jpeg"
+    },
+    {
+        "city": "Nuremberg 🇩🇪",
+        "lat": 49.45421,
+        "lng": 11.07752,
+        "date": "March 2015",
+        "image": "nuremberg.jpeg"
+    },
+    {
+        "city": "Bochnia 🇵🇱",
+        "lat": 49.96905,
+        "lng": 20.43028,
+        "date": "July 2016",
+        "image": "bochnia.jpg"
+    },
+    {
+        "city": "Amsterdam 🇳🇱",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "date": "January 2019",
+        "image": "amsterdam.jpeg"
+    }
+]

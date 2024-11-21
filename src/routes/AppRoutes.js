@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import MainLayout from '../layouts/MainLayout';
 import Home from '../pages/Home';
 import Projects from '../pages/Projects';
+import AboutMe from '../pages/AboutMe';
 
 const basePath = process.env.PUBLIC_URL
 
@@ -30,7 +31,7 @@ const AppRoutes = () => {
     <Routes>
       <Route path={`${basePath}`} element={<MainLayout><Home/></MainLayout>} />
       <Route path={`${basePath}/projects`} element={<MainLayout><Projects/></MainLayout>} />
-      <Route path={`${basePath}/hobbies`} element={<MainLayout><div/></MainLayout>} />
+      <Route path={`${basePath}/about-me`} element={<MainLayout><AboutMe/></MainLayout>} />
       <Route path={`${basePath}/contact`} element={<MainLayout><div/></MainLayout>} />
       <Route path="*" element={<MainLayout><Home/></MainLayout>} />
     </Routes>
