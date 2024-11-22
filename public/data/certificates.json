@@ -4,34 +4,34 @@
         "link": "https://www.scrum.org/certificates/1142762",
         "location": "Scrum.org",
         "dates": "September 2024",
-        "logo": "scrumLogo"
+        "logo": "scrum_logo.svg"
     },
     {
         "item": "Docker for the Absolute Beginner - Hands On - DevOps",
         "link": "https://www.udemy.com/certificate/UC-3e887815-240e-431e-a816-2d9762919a49/",
         "location": "Kodecloud",
         "dates": "June 2024",
-        "logo": "kodecloudLogo"
+        "logo": "kodecloud_logo.png"
     },
     {
         "item": "The Git & Github Bootcamp",
         "link": "https://www.udemy.com/certificate/UC-265e7b52-017d-4698-aede-bc27eb45dd81/",
         "location": "Udemy",
         "dates": "May 2024",
-        "logo": "udemyLogo"
+        "logo": "udemy_logo.svg"
     },
     {
         "item": "PCEP - Certified Entry-Level Python Programmer",
         "link": "https://verify.openedg.org/?id=fr4i.UDR0.SJMi",
         "location": "Python Institute",
         "dates": "July 2021",
-        "logo": "pythonLogo"
+        "logo": "python_logo.svg"
     },
     {
         "item": "First Certificate English (FCE)",
         "link": "",
         "location": "Cambridge University Press & Assessment English",
         "dates": "Setpember 2019",
-        "logo": "cambridgeLogo"
+        "logo": "cambridge_logo.svg"
     }
 ]

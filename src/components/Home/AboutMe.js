@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+import { profilePic } from "../../assets";
 import {
-  profilePic,
   githubLogo,
   linkedinLogo,
   telegramLogo,
-} from "../../assets";
+} from "../../assets/logos";
 
 import "./AboutMe.css";
 

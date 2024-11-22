@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Image, Container, Row, Col } from "react-bootstrap";
-import { downloadLogo, pdfLogo } from "../../assets";
-import html2pdf from 'html2pdf.js';
+import { downloadLogo, pdfLogo } from "../../assets/logos";
+import html2pdf from "html2pdf.js";
 
 
 import "./Download.css";

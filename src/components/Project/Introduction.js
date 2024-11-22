@@ -1,6 +1,6 @@
 import React from "react";
 
-import { githubLogo } from "../../assets";
+import { githubLogo } from "../../assets/logos";
 
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./Introduction.css";

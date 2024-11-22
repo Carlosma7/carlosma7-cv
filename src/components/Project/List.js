@@ -2,39 +2,12 @@ import React, { useState, useEffect } from "react";
 
 import { Image, Container, Card, Col, Row } from "react-bootstrap";
 import { Chip } from "@mui/material";
-
-import {
-  githubLogo,
-  alarmbotLogo,
-  isaacbotLogo,
-  aidrawitLogo,
-  arduinoLogo,
-  frameworkLogo,
-  grandquizLogo,
-  matchupLogo,
-  medauthLogo,
-  xLogo,
-  universityLogo,
-} from "../../assets";
+import { githubLogo } from "../../assets/logos";
 
 import "./List.css";
 
-// Logos to map them when reading JSON files
-const logos = {
-  githubLogo,
-  alarmbotLogo,
-  isaacbotLogo,
-  aidrawitLogo,
-  arduinoLogo,
-  frameworkLogo,
-  grandquizLogo,
-  matchupLogo,
-  medauthLogo,
-  xLogo,
-  universityLogo,
-};
-
 const basePath = process.env.PUBLIC_URL;
+const imagePath = (imageName) => require(`../../assets/logos/${imageName}`);
 
 const List = () => {
   const [projects, setProjects] = useState([]);
@@ -51,7 +24,7 @@ const List = () => {
         setProjects(
           data.map((item) => ({
             ...item,
-            icon: logos[item.icon],
+            icon: imagePath(item.icon),
           }))
         )
       )

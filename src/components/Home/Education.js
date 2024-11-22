@@ -1,34 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-
-import {
-  braintecLogo,
-  techedgeLogo,
-  nanobytesLogo,
-  ugrLogo,
-  pythonLogo,
-  cambridgeLogo,
-  kodecloudLogo,
-  udemyLogo,
-  scrumLogo
-} from "../../assets";
 
 import Section from "./Section";
 
-// Logos to map them when reading JSON files
-const logos = {
-  braintecLogo,
-  techedgeLogo,
-  nanobytesLogo,
-  ugrLogo,
-  pythonLogo,
-  cambridgeLogo,
-  kodecloudLogo,
-  udemyLogo,
-  scrumLogo
-};
-
 const basePath = process.env.PUBLIC_URL;
+const imagePath = (imageName) => require(`../../assets/logos/${imageName}`);
 
 /**
  * Education - A functional component that fetches and displays data about education,
@@ -64,7 +39,7 @@ const Education = () => {
         setEducation(
           data.map((item) => ({
             ...item,
-            logo: logos[item.logo],
+            logo: imagePath(item.logo),
           }))
         )
       )
@@ -81,7 +56,7 @@ const Education = () => {
         setExperience(
           data.map((item) => ({
             ...item,
-            logo: logos[item.logo],
+            logo: imagePath(item.logo),
           }))
         )
       )
@@ -114,7 +89,7 @@ const Education = () => {
         setCertificates(
           data.map((item) => ({
             ...item,
-            logo: logos[item.logo],
+            logo: imagePath(item.logo),
           }))
         )
       )
@@ -122,7 +97,7 @@ const Education = () => {
   }, []);
 
   return (
-    <Container>
+    <div>
         <Section sectionName="Education" content={education} />
         <hr/>
         <Section sectionName="Experience" content={experience} />
@@ -130,7 +105,7 @@ const Education = () => {
         <Section sectionName="Certificates" content={certificates} />
         <hr/>
         <Section sectionName="Skills" content={skills} />
-    </Container>
+    </div>
   );
 };
 
