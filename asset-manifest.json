@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/carlosma7-cv/static/css/main.1bb08cdf.css",
-    "main.js": "/carlosma7-cv/static/js/main.ff61520f.js",
+    "main.js": "/carlosma7-cv/static/js/main.037df63d.js",
     "static/js/213.4537851b.chunk.js": "/carlosma7-cv/static/js/213.4537851b.chunk.js",
     "static/js/732.756dd493.chunk.js": "/carlosma7-cv/static/js/732.756dd493.chunk.js",
     "static/js/488.d2036432.chunk.js": "/carlosma7-cv/static/js/488.d2036432.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/stockholm.jpeg": "/carlosma7-cv/static/media/stockholm.43937c7c9c9ebbed4773.jpeg",
     "static/media/edinburgh.jpeg": "/carlosma7-cv/static/media/edinburgh.77ce1a4cc07d9b321a2b.jpeg",
     "static/media/paris.jpeg": "/carlosma7-cv/static/media/paris.d679da857553439b8e93.jpeg",
-    "static/media/cambridge_logo.svg": "/carlosma7-cv/static/media/cambridge_logo.7647ff47c42a205849a3e8da4d2dc217.svg",
+    "static/media/cambridge_logo.svg": "/carlosma7-cv/static/media/cambridge_logo.7647ff47c42a205849a3.svg",
     "static/media/aidrawit_logo.png": "/carlosma7-cv/static/media/aidrawit_logo.6c9be9ceb9d205d5871b.png",
     "static/media/grandquiz_logo.png": "/carlosma7-cv/static/media/grandquiz_logo.e73991f6874dd9569d54.png",
     "static/media/x_logo.jpg": "/carlosma7-cv/static/media/x_logo.6d149d3a021ea3031ea1.jpg",
@@ -41,23 +41,23 @@
     "static/media/framework_logo.png": "/carlosma7-cv/static/media/framework_logo.b9aeb5c45d4154816647.png",
     "static/media/isaac_logo.jpeg": "/carlosma7-cv/static/media/isaac_logo.3c081714da5c88c5260c.jpeg",
     "static/media/medauth_logo.png": "/carlosma7-cv/static/media/medauth_logo.073984c2fc223cf8413f.png",
-    "static/media/scrum_logo.svg": "/carlosma7-cv/static/media/scrum_logo.8cde820abd4a1a00070f1dfdab9f3a1a.svg",
+    "static/media/scrum_logo.svg": "/carlosma7-cv/static/media/scrum_logo.8cde820abd4a1a00070f.svg",
     "static/media/pdf_logo.svg": "/carlosma7-cv/static/media/pdf_logo.e3ce45e4695481e86d49bd59f3b98640.svg",
-    "static/media/arduino_logo.svg": "/carlosma7-cv/static/media/arduino_logo.5e8b95309e564d23f42755dcb2617eff.svg",
-    "static/media/udemy_logo.svg": "/carlosma7-cv/static/media/udemy_logo.c25655c05cc3b80125e9f224121fbceb.svg",
+    "static/media/arduino_logo.svg": "/carlosma7-cv/static/media/arduino_logo.5e8b95309e564d23f427.svg",
+    "static/media/udemy_logo.svg": "/carlosma7-cv/static/media/udemy_logo.c25655c05cc3b80125e9.svg",
     "index.html": "/carlosma7-cv/index.html",
-    "static/media/python_logo.svg": "/carlosma7-cv/static/media/python_logo.62e8a4442709e711eb8c89041804c775.svg",
+    "static/media/python_logo.svg": "/carlosma7-cv/static/media/python_logo.62e8a4442709e711eb8c.svg",
     "static/media/linkedin_logo.svg": "/carlosma7-cv/static/media/linkedin_logo.c11a51dc5395675c338ae20f84fcfa75.svg",
     "static/media/telegram_logo.svg": "/carlosma7-cv/static/media/telegram_logo.fd11c5664643c3d8d90c60fd381a4b7e.svg",
     "static/media/github_logo.svg": "/carlosma7-cv/static/media/github_logo.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "main.1bb08cdf.css.map": "/carlosma7-cv/static/css/main.1bb08cdf.css.map",
-    "main.ff61520f.js.map": "/carlosma7-cv/static/js/main.ff61520f.js.map",
+    "main.037df63d.js.map": "/carlosma7-cv/static/js/main.037df63d.js.map",
     "213.4537851b.chunk.js.map": "/carlosma7-cv/static/js/213.4537851b.chunk.js.map",
     "732.756dd493.chunk.js.map": "/carlosma7-cv/static/js/732.756dd493.chunk.js.map",
     "488.d2036432.chunk.js.map": "/carlosma7-cv/static/js/488.d2036432.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bb08cdf.css",
-    "static/js/main.ff61520f.js"
+    "static/js/main.037df63d.js"
   ]
 }

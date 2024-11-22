@@ -4,20 +4,20 @@
     "experience": "Currently working as an Odoo software developer at Brain-tec, a Swiss company recognized as a top Odoo partner in Europe and an Odoo Gold Partner in Switzerland, Germany, and Spain.\n\nMy role is dedicated to supporting Topregal, where I handle direct customer communication in English.\n\nMy main responsibilities include implementing, configuring, and customizing Odoo modules, designing reports with QWeb, analyzing requirements, and setting up the Odoo ERP system to meet specific business needs.\n\nI have also been involved in Odoo migration projects for clients like Thurbo and RegionAlps, focusing on improving their ERP systems to enhance technological performance and operational efficiency.\n\nI work with agile methodologies, primarily SCRUM, Kanban, and Planning Poker, to ensure effective project management and collaboration.\n\nThe technologies I frequently use include Odoo v12, v14, v16 (and v18 in the nearby future), Python, PostgreSQL, XML, XPath, QWeb, JavaScript, CSS, HTML, GitHub, Docker, Linux, as well as tools like ChatGPT and Copilot.",
     "location": "Granada, Spain (Remote).",
     "dates": "September 2021 - Present",
-    "logo": "braintecLogo"
+    "logo": "braintec_logo.jpeg"
   },
   {
     "item": "Junior Consultant - Techedge",
     "experience": "SAP HANA and ABAP development (programs, webdynpros, etc) and optimisation for different projects as a back-end developer using OOP.\n\nCustom code management and decommissioning, EHP updates and ATC analysis.\n\nCode quality analysis and RFC connections.\n\nBackup and SOLMAN management.",
     "location": "Granada, Spain.",
     "dates": "June 2019 - October 2020",
-    "logo": "techedgeLogo"
+    "logo": "techedge_logo.jpeg"
   },
   {
     "item": "Software Intern - Nanobytes",
     "experience": "Internship carried out during the Bachelor's Degree in Computer Engineering. During the 3-month period, I worked in the Development and Support departments of Nanobytes Informática y Telecomunicaciones S.L.\n\nI performed tasks related to ERP Odoo development in Python3, database administration, requirements engineering, and design, including module evaluation and UML diagrams.",
     "location": "Granada, Spain.",
     "dates": "February 2018 - May 2018",
-    "logo": "nanobytesLogo"
+    "logo": "nanobytes_logo.jpeg"
   }
 ]
