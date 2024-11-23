@@ -23,7 +23,6 @@ const basePath = process.env.PUBLIC_URL
  * - "/" for the Home page
  * - "/projects" for the Projects page
  * - "/hobbies" for the Hobbies page
- * - "/contact" for the Contact page
  * - "*" as a catch-all for undefined routes
  */
 const AppRoutes = () => {
@@ -32,7 +31,6 @@ const AppRoutes = () => {
       <Route path={`${basePath}`} element={<MainLayout><Home/></MainLayout>} />
       <Route path={`${basePath}/projects`} element={<MainLayout><Projects/></MainLayout>} />
       <Route path={`${basePath}/about-me`} element={<MainLayout><AboutMe/></MainLayout>} />
-      <Route path={`${basePath}/contact`} element={<MainLayout><div/></MainLayout>} />
       <Route path="*" element={<MainLayout><Home/></MainLayout>} />
     </Routes>
   );

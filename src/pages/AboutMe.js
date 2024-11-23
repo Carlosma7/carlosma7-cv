@@ -1,9 +1,10 @@
 import React from "react";
-import { MyMap } from "../components/AboutMe";
+import { Prints, MyMap } from "../components/AboutMe";
 
 const AboutMe = () => {
   return (
     <div>
+        <Prints/>
         <MyMap/>
     </div>
   );

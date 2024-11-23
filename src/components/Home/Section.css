@@ -1,7 +1,38 @@
+.chip-link {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.custom-progress-bar {
+    /* Set the font settings and set a certain length for the progress bar */
+    font-size: 25px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+    @media (max-width: 768px) {
+        width: 70%;
+        font-size: 18px;
+        margin: 5px;
+    }
+}
+
+.dates {
+    /* Change location font */
+    font-size: 15px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: var(--color3);
+    font-family: 'Courier New', Courier, monospace;
+
+    @media (max-width: 768px) {
+        font-size: 10px;
+        width: 45px;
+    }
+}
+
 .experience {
     /* Justify experience text */
     text-align: justify;
     white-space: pre-line;
+
     @media (max-width: 768px) {
         font-size: 14px;
         hyphens: auto;
@@ -14,6 +45,7 @@
     font-size: 30px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: var(--color1);
+
     @media (max-width: 768px) {
         font-size: 17px;
         text-align: left;
@@ -26,6 +58,7 @@
     align-items: start;
     gap: 20px;
     width: 100%;
+
     @media (max-width: 768px) {
         gap: 5px;
     }
@@ -37,20 +70,9 @@
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: var(--color3);
     font-family: 'Courier New', Courier, monospace;
-    @media (max-width: 768px) {
-        font-size: 10px;
-    }
-}
 
-.dates {
-    /* Change location font */
-    font-size: 15px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: var(--color3);
-    font-family: 'Courier New', Courier, monospace;
     @media (max-width: 768px) {
         font-size: 10px;
-        width: 45px;
     }
 }
 
@@ -58,19 +80,9 @@
     border: 2px solid #405aa4;
     aspect-ratio: 1 / 1;
     width: 100px;
+
     @media (max-width: 768px) {
         width: 40px;
-    }
-}
-
-.custom-progress-bar {
-    /* Set the font settings and set a certain length for the progress bar */
-    font-size: 25px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    @media (max-width: 768px) {
-        width: 70%;
-        font-size: 18px;
-        margin: 5px;
     }
 }
 
@@ -82,9 +94,4 @@
     text-decoration-color: var(--color3);
     color: var(--color1);
     text-align: center;
-}
-
-.chip-link {
-    display: inline-block;
-    margin-bottom: 10px;
 }

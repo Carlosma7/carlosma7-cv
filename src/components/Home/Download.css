@@ -1,43 +1,45 @@
 .download-section {
-    background-color: var(--color1);
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  background-color: var(--color1);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 
-    p {
-        /* Set section name font and decorations */
-        font-size: 35px;
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-        text-decoration: underline;
-        text-decoration-color: var(--color3);
-        color: white;
-    }
+  p {
+    /* Set section name font and decorations */
+    font-size: 35px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-decoration: underline;
+    text-decoration-color: var(--color3);
+    color: white;
+  }
 }
 
 .image-button {
-    border: 2px solid var(--color3);
-    @media (max-width: 768px) {
-      width: 80%;
-    }
-  }
+  border: 2px solid var(--color3);
 
-  .image-button:hover{
-    background-color: var(--color3);
-    border: 2px solid var(--color3);
+  @media (max-width: 768px) {
+    width: 80%;
   }
-  
-  .button-icon {
-    width: 70px; /* Ajusta el tamaño de la imagen */
-    height: 70px;
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
-  }
-  
-  .button-text {
-    font-weight: bold;
-    font-size: 20px;
-    @media (max-width: 768px) {
-      font-size: 16px;
-    }
-  }
+}
 
-  
+.image-button:hover {
+  background-color: var(--color3);
+  border: 2px solid var(--color3);
+}
+
+.button-icon {
+  width: 70px;
+  /* Ajusta el tamaño de la imagen */
+  height: 70px;
+  margin-right: 10px;
+  /* Espacio entre la imagen y el texto */
+}
+
+.button-text {
+  font-weight: bold;
+  font-size: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}

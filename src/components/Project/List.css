@@ -1,23 +1,24 @@
-.card-image{
+.card-image {
     width: 100%;
     height: 300px;
 }
 
-.card-body{
+.card-body {
     background-color: var(--color2);
     color: white;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
     height: 160px;
     color: var(--color5);
+
     @media (max-width: 768px) {
         height: 190px;
     }
 }
 
-.chip-github{
+.chip-github {
 
     .chip-image {
         /* Sets logo size and color when not hovering over it */
@@ -25,7 +26,7 @@
     }
 }
 
-.chip-github:hover{
+.chip-github:hover {
     .chip-image {
         /* Changes color when hover */
         filter: brightness(0) saturate(100%) invert(39%) sepia(88%) saturate(1969%) hue-rotate(198deg) brightness(99%) contrast(81%);
