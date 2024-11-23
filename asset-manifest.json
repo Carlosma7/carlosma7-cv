@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/carlosma7-cv/static/css/main.1bb08cdf.css",
-    "main.js": "/carlosma7-cv/static/js/main.037df63d.js",
+    "main.css": "/carlosma7-cv/static/css/main.6c84ec9e.css",
+    "main.js": "/carlosma7-cv/static/js/main.7117e669.js",
     "static/js/213.4537851b.chunk.js": "/carlosma7-cv/static/js/213.4537851b.chunk.js",
     "static/js/732.756dd493.chunk.js": "/carlosma7-cv/static/js/732.756dd493.chunk.js",
     "static/js/488.d2036432.chunk.js": "/carlosma7-cv/static/js/488.d2036432.chunk.js",
     "static/media/bochnia.jpg": "/carlosma7-cv/static/media/bochnia.c813dd1b637988353fe6.jpg",
     "static/media/aachen.jpg": "/carlosma7-cv/static/media/aachen.8049c927afa970e901a1.jpg",
     "static/media/bonn.jpg": "/carlosma7-cv/static/media/bonn.9e86d6b80b7fa67d300e.jpg",
+    "static/media/cult_of_the_lamb.jpg": "/carlosma7-cv/static/media/cult_of_the_lamb.3d557bf640afc3fc7e90.jpg",
+    "static/media/broken_vessel.jpg": "/carlosma7-cv/static/media/broken_vessel.6600a07e962c9ec3d3d7.jpg",
+    "static/media/zote_the_mighty.jpg": "/carlosma7-cv/static/media/zote_the_mighty.28d6f06795eb79a7f758.jpg",
     "static/media/newyork.jpeg": "/carlosma7-cv/static/media/newyork.87b6109c05ba3025d461.jpeg",
     "static/media/salzburg.jpeg": "/carlosma7-cv/static/media/salzburg.ce2a5613717da2eca9fa.jpeg",
     "static/media/dublin.jpeg": "/carlosma7-cv/static/media/dublin.2f715c5e701df0d46144.jpeg",
@@ -24,8 +27,10 @@
     "static/media/milan.jpeg": "/carlosma7-cv/static/media/milan.9ba80a6c2c41a5995dd8.jpeg",
     "static/media/nuremberg.jpeg": "/carlosma7-cv/static/media/nuremberg.19186f79b309a2581467.jpeg",
     "static/media/amsterdam.jpeg": "/carlosma7-cv/static/media/amsterdam.f61939e2820f97f98789.jpeg",
+    "static/media/kirby.jpg": "/carlosma7-cv/static/media/kirby.c3d5868ef88b0e4872eb.jpg",
     "static/media/krakow.jpeg": "/carlosma7-cv/static/media/krakow.089d55c72c79762e0589.jpeg",
     "static/media/profile_pic.jpeg": "/carlosma7-cv/static/media/profile_pic.15e5ccbdbacf98bd6793.jpeg",
+    "static/media/sans_undertale.jpg": "/carlosma7-cv/static/media/sans_undertale.c1655a763d82e739c9f7.jpg",
     "static/media/duisburg.jpeg": "/carlosma7-cv/static/media/duisburg.45d0fa0b28d1095a8e2e.jpeg",
     "static/media/liverpool.jpeg": "/carlosma7-cv/static/media/liverpool.0655f841734246b4cfaf.jpeg",
     "static/media/stockholm.jpeg": "/carlosma7-cv/static/media/stockholm.43937c7c9c9ebbed4773.jpeg",
@@ -50,14 +55,14 @@
     "static/media/linkedin_logo.svg": "/carlosma7-cv/static/media/linkedin_logo.c11a51dc5395675c338ae20f84fcfa75.svg",
     "static/media/telegram_logo.svg": "/carlosma7-cv/static/media/telegram_logo.fd11c5664643c3d8d90c60fd381a4b7e.svg",
     "static/media/github_logo.svg": "/carlosma7-cv/static/media/github_logo.6fa18895f6e6c7772cab7049f7e05f59.svg",
-    "main.1bb08cdf.css.map": "/carlosma7-cv/static/css/main.1bb08cdf.css.map",
-    "main.037df63d.js.map": "/carlosma7-cv/static/js/main.037df63d.js.map",
+    "main.6c84ec9e.css.map": "/carlosma7-cv/static/css/main.6c84ec9e.css.map",
+    "main.7117e669.js.map": "/carlosma7-cv/static/js/main.7117e669.js.map",
     "213.4537851b.chunk.js.map": "/carlosma7-cv/static/js/213.4537851b.chunk.js.map",
     "732.756dd493.chunk.js.map": "/carlosma7-cv/static/js/732.756dd493.chunk.js.map",
     "488.d2036432.chunk.js.map": "/carlosma7-cv/static/js/488.d2036432.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bb08cdf.css",
-    "static/js/main.037df63d.js"
+    "static/css/main.6c84ec9e.css",
+    "static/js/main.7117e669.js"
   ]
 }
