@@ -92,7 +92,7 @@ const Prints = () => {
       >
         {images.map((item, idx) => (
           <Carousel.Item key={idx}>
-            <Image src={item.src} alt={item.name} />
+            <Image src={item.src} alt={item.name} className="image-carousel"/>
             <Carousel.Caption>
               <h3 className="h3-overlay">{item.name}</h3>
             </Carousel.Caption>
