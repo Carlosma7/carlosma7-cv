@@ -115,8 +115,6 @@ const MyMap = () => {
         Each destination has something unique to offer, from fascinating
         cultures to breathtaking landscapes. Below, you can find a map
         highlighting the cities I have had the chance to visit around the world.
-        Feel free to click the markers if you want to see some of the picture I
-        took myself.
         <br />
         <br />
         Here's the list of countries I've visited so far (including my own
