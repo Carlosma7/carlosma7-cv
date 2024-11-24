@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import ScrollToTopButton from './TopScroll';
+import ScrollToTopButton from './ScrollToTopButton';
 
 /**
  * MainLayout - A functional component that serves as the main layout structure for the website,
@@ -25,10 +25,10 @@ import ScrollToTopButton from './TopScroll';
 const MainLayout = ({ children }) => {
   return (
     <div>
-      <ScrollToTopButton/>
       <Header />
       <main>{children}</main>
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Fab } from "@mui/material";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-import "./TopScroll.css";
+import "./ScrollToTopButton.css";
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +33,7 @@ const ScrollToTopButton = () => {
       {isVisible && (
         <Fab
           onClick={scrollToTop}
-          className="fab-to-top"
+          className="fab"
         >
           <ArrowUpwardIcon />
         </Fab>

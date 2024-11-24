@@ -1,0 +1,13 @@
+.fab {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 1000 !important;
+    background-color: var(--color2) !important;
+    color: white !important;
+}
+
+.fab:hover {
+    background-color: white !important;
+    color: var(--color2) !important;
+}
