@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/carlosma7-cv/static/css/main.6c84ec9e.css",
-    "main.js": "/carlosma7-cv/static/js/main.7117e669.js",
+    "main.css": "/carlosma7-cv/static/css/main.5bd6b6b3.css",
+    "main.js": "/carlosma7-cv/static/js/main.1e725794.js",
     "static/js/213.4537851b.chunk.js": "/carlosma7-cv/static/js/213.4537851b.chunk.js",
     "static/js/732.756dd493.chunk.js": "/carlosma7-cv/static/js/732.756dd493.chunk.js",
     "static/js/488.d2036432.chunk.js": "/carlosma7-cv/static/js/488.d2036432.chunk.js",
@@ -55,14 +55,14 @@
     "static/media/linkedin_logo.svg": "/carlosma7-cv/static/media/linkedin_logo.c11a51dc5395675c338ae20f84fcfa75.svg",
     "static/media/telegram_logo.svg": "/carlosma7-cv/static/media/telegram_logo.fd11c5664643c3d8d90c60fd381a4b7e.svg",
     "static/media/github_logo.svg": "/carlosma7-cv/static/media/github_logo.6fa18895f6e6c7772cab7049f7e05f59.svg",
-    "main.6c84ec9e.css.map": "/carlosma7-cv/static/css/main.6c84ec9e.css.map",
-    "main.7117e669.js.map": "/carlosma7-cv/static/js/main.7117e669.js.map",
+    "main.5bd6b6b3.css.map": "/carlosma7-cv/static/css/main.5bd6b6b3.css.map",
+    "main.1e725794.js.map": "/carlosma7-cv/static/js/main.1e725794.js.map",
     "213.4537851b.chunk.js.map": "/carlosma7-cv/static/js/213.4537851b.chunk.js.map",
     "732.756dd493.chunk.js.map": "/carlosma7-cv/static/js/732.756dd493.chunk.js.map",
     "488.d2036432.chunk.js.map": "/carlosma7-cv/static/js/488.d2036432.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c84ec9e.css",
-    "static/js/main.7117e669.js"
+    "static/css/main.5bd6b6b3.css",
+    "static/js/main.1e725794.js"
   ]
 }
