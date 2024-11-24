@@ -25,10 +25,10 @@ import ScrollToTopButton from './TopScroll';
 const MainLayout = ({ children }) => {
   return (
     <div>
+      <ScrollToTopButton/>
       <Header />
       <main>{children}</main>
       <Footer />
-      <ScrollToTopButton/>
     </div>
   );
 };
