@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/carlosma7-cv/static/css/main.87513cbe.css",
-    "main.js": "/carlosma7-cv/static/js/main.089925a1.js",
+    "main.js": "/carlosma7-cv/static/js/main.2a085287.js",
     "static/js/213.4537851b.chunk.js": "/carlosma7-cv/static/js/213.4537851b.chunk.js",
     "static/js/732.756dd493.chunk.js": "/carlosma7-cv/static/js/732.756dd493.chunk.js",
     "static/js/488.d2036432.chunk.js": "/carlosma7-cv/static/js/488.d2036432.chunk.js",
     "static/media/bochnia.jpg": "/carlosma7-cv/static/media/bochnia.c813dd1b637988353fe6.jpg",
     "static/media/aachen.jpg": "/carlosma7-cv/static/media/aachen.8049c927afa970e901a1.jpg",
     "static/media/bonn.jpg": "/carlosma7-cv/static/media/bonn.9e86d6b80b7fa67d300e.jpg",
+    "static/media/card_shuffler.jpg": "/carlosma7-cv/static/media/card_shuffler.81b99c22173ff902bd12.jpg",
+    "static/media/snowflake_napkin_holder.jpg": "/carlosma7-cv/static/media/snowflake_napkin_holder.c65180939d02cac7e049.jpg",
     "static/media/cult_of_the_lamb.jpg": "/carlosma7-cv/static/media/cult_of_the_lamb.3d557bf640afc3fc7e90.jpg",
+    "static/media/iron_man_lamp.jpg": "/carlosma7-cv/static/media/iron_man_lamp.8945010bbc7b552e5023.jpg",
     "static/media/broken_vessel.jpg": "/carlosma7-cv/static/media/broken_vessel.6600a07e962c9ec3d3d7.jpg",
     "static/media/zote_the_mighty.jpg": "/carlosma7-cv/static/media/zote_the_mighty.28d6f06795eb79a7f758.jpg",
     "static/media/newyork.jpeg": "/carlosma7-cv/static/media/newyork.87b6109c05ba3025d461.jpeg",
@@ -56,13 +59,13 @@
     "static/media/telegram_logo.svg": "/carlosma7-cv/static/media/telegram_logo.fd11c5664643c3d8d90c60fd381a4b7e.svg",
     "static/media/github_logo.svg": "/carlosma7-cv/static/media/github_logo.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "main.87513cbe.css.map": "/carlosma7-cv/static/css/main.87513cbe.css.map",
-    "main.089925a1.js.map": "/carlosma7-cv/static/js/main.089925a1.js.map",
+    "main.2a085287.js.map": "/carlosma7-cv/static/js/main.2a085287.js.map",
     "213.4537851b.chunk.js.map": "/carlosma7-cv/static/js/213.4537851b.chunk.js.map",
     "732.756dd493.chunk.js.map": "/carlosma7-cv/static/js/732.756dd493.chunk.js.map",
     "488.d2036432.chunk.js.map": "/carlosma7-cv/static/js/488.d2036432.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87513cbe.css",
-    "static/js/main.089925a1.js"
+    "static/js/main.2a085287.js"
   ]
 }
