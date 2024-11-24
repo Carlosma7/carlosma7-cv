@@ -116,8 +116,8 @@ const List = () => {
       <Row xs={1} md={4} className="g-3">
         {Array.isArray(projects) &&
           projects.map((item, index) => (
-            <Col key={index}>
-              <Card>
+            <Col key={index} className="wrapper">
+              <Card className="card">
                 <Card.Img
                   variant="top"
                   src={item.icon}
